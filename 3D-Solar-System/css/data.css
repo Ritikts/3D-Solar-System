@@ -1,0 +1,127 @@
+/* --------------------------------------------------------------------------- text infos data */
+/* --------------------------------------------------------------------------- speed */
+.set-speed dl.infos dd span:after {
+  content: "Orbit Velocity";
+}
+
+.set-speed #sun dl.infos dd:after {
+  content: "0 km/h";
+}
+
+.set-speed #mercury dl.infos dd:after {
+  content: "47.87 km/s";
+}
+
+.set-speed #venus dl.infos dd:after {
+  content: "35.02 km/s";
+}
+
+.set-speed #earth dl.infos dd:after {
+  content: "29.78 km/s";
+}
+
+.set-speed #mars dl.infos dd:after {
+  content: "24.077 km/s";
+}
+
+.set-speed #jupiter dl.infos dd:after {
+  content: "13.07 km/s";
+}
+
+.set-speed #saturn dl.infos dd:after {
+  content: "9.69 km/s";
+}
+
+.set-speed #uranus dl.infos dd:after {
+  content: "6.81 km/s";
+}
+
+.set-speed #neptune dl.infos dd:after {
+  content: "5.43 km/s";
+}
+
+/* --------------------------------------------------------------------------- size */
+.set-size dl.infos dd span:after {
+  content: "Equatorial Circumference";
+}
+
+.set-size #sun dl.infos dd:after {
+  content: "4.379 million km";
+}
+
+.set-size #mercury dl.infos dd:after {
+  content: "15,329 km";
+}
+
+.set-size #venus dl.infos dd:after {
+  content: "38,025 km";
+}
+
+.set-size #earth dl.infos dd:after {
+  content: "40,075 km";
+}
+
+.set-size #mars dl.infos dd:after {
+  content: "21,344 km";
+}
+
+.set-size #jupiter dl.infos dd:after {
+  content: "439,264 km";
+}
+
+.set-size #saturn dl.infos dd:after {
+  content: "378,675 km";
+}
+
+.set-size #uranus dl.infos dd:after {
+  content: "160,590 km";
+}
+
+.set-size #neptune dl.infos dd:after {
+  content: "155,600 km";
+}
+
+/* --------------------------------------------------------------------------- distance */
+.set-distance dl.infos dd span:after {
+  content: "From Sun";
+}
+
+.set-distance #sun dl.infos dd span:after {
+  content: "From Earth";
+}
+
+.set-distance #sun dl.infos dd:after {
+  content: "149.51 million km";
+}
+
+.set-distance #mercury dl.infos dd:after {
+  content: "52.268 million km";
+}
+
+.set-distance #venus dl.infos dd:after {
+  content: "108.94 million km";
+}
+
+.set-distance #earth dl.infos dd:after {
+  content: "149.51 million km";
+}
+
+.set-distance #mars dl.infos dd:after {
+  content: "245.27 million km";
+}
+
+.set-distance #jupiter dl.infos dd:after {
+  content: "750.23 million km";
+}
+
+.set-distance #saturn dl.infos dd:after {
+  content: "1.4841 billion km";
+}
+
+.set-distance #uranus dl.infos dd:after {
+  content: "2.9517 billion km";
+}
+
+.set-distance #neptune dl.infos dd:after {
+  content: "4.475 billion km";
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Solar System</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/basics.css" />
+    <link rel="stylesheet" href="css/planet-scale.css" />
+    <link rel="stylesheet" href="css/data.css" />
+    <link rel="stylesheet" href="css/keyframes.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/transition.css" />
+    <link rel="stylesheet" href="css/images.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body class="opening hide-UI view-2D zoom-large data-close controls-close">
+    <img src="img/desktop.jpg" id="body-image" width="100%" height="100%" />
+    <img src="img/mobile.jpg" id="body-image-2" width="100%" height="100%" />
+    <nav>
+      <div id="navbar">
+        <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
+        <h1>3D Solar System</h1>
+        <h3>Created by @webofritk, Inspired by Julian Garnier</h3>
+        <a id="toggle-controls" href="#controls"
+          ><i class="icon-controls"></i>Controls</a
+        >
+      </div>
+      <div id="data">
+        <a class="sun" title="sun" href="#sunspeed">Sun</a>
+        <a class="mercury" title="mercury" href="#mercuryspeed">Mercury</a>
+        <a class="venus" title="venus" href="#venusspeed">Venus</a>
+        <a class="earth active" title="earth" href="#earthspeed">Earth</a>
+        <a class="mars" title="mars" href="#marsspeed">Mars</a>
+        <a class="jupiter" title="jupiter" href="#jupiterspeed">Jupiter</a>
+        <a class="saturn" title="saturn" href="#saturnspeed">Saturn</a>
+        <a class="uranus" title="uranus" href="#uranusspeed">Uranus</a>
+        <a class="neptune" title="neptune" href="#neptunespeed">Neptune</a>
+      </div>
+      <div id="controls">
+        <label class="set-view">
+          <input type="checkbox" />
+        </label>
+        <label class="set-zoom">
+          <input type="checkbox" />
+        </label>
+        <label>
+          <input type="radio" class="set-speed" name="scale" checked />
+          <span>Speed</span>
+        </label>
+        <label>
+          <input type="radio" class="set-size" name="scale" />
+          <span>Size</span>
+        </label>
+        <label>
+          <input type="radio" class="set-distance" name="scale" />
+          <span>Distance</span>
+        </label>
+      </div>
+    </nav>
+    <section>
+      <div id="universe" class="scale-stretched">
+        <div id="galaxy">
+          <div id="solar-system" class="earth">
+            <div id="mercury" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Mercury</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="venus" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Venus</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="earth" class="orbit">
+              <div class="pos">
+                <div class="orbit">
+                  <div class="pos">
+                    <div class="moon"></div>
+                  </div>
+                </div>
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Earth</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="mars" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Mars</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="jupiter" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Jupiter</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="saturn" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <div class="ring"></div>
+                  <dl class="infos">
+                    <dt>Saturn</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="uranus" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Uranus</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="neptune" class="orbit">
+              <div class="pos">
+                <div class="planet">
+                  <dl class="infos">
+                    <dt>Neptune</dt>
+                    <dd><span></span></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div id="sun">
+              <dl class="infos">
+                <dt>Sun</dt>
+                <dd><span></span></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
